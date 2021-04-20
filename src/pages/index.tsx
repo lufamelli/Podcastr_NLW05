@@ -1,7 +1,3 @@
-// SPA
-// SSR
-// SSG
-
 export default function Home(props) {
   return <div> </div>;
 }
