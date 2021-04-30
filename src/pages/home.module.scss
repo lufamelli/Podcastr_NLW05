@@ -169,3 +169,25 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  html {
+    .homepage {
+      padding: 0;
+      height: unset;
+      overflow-y: initial;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    .allEpisodes {
+      tr {
+        td:first-child {
+          display: none;
+        }
+      }
+    }
+  }
+}

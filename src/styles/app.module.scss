@@ -5,3 +5,12 @@
     flex: 1;
   }
 }
+
+@media (max-width: 900px) {
+  html {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

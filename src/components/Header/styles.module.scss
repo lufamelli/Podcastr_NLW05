@@ -17,3 +17,13 @@
     text-transform: capitalize;
   }
 }
+
+@media (max-width: 370px) {
+  html {
+    .headerContainer {
+      p {
+        display: none;
+      }
+    }
+  }
+}
